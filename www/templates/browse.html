@@ -1,0 +1,67 @@
+<ion-view view-title="Allied Sizing App - Dials">
+  <ion-content>
+    <div class="row">
+      <div class="col col-25 vertical-progress">
+        <div class="row step-1-bg">
+          <div class="SUB-white-borderd-box">
+            <a class="button button-small button-icon icon ion-ios-gear"> Step 1</a>
+          </div>
+        </div>
+
+        <div class="row step-2-bg">
+          <div class="SUB-white-borderd-box">
+            <a class="button button-small button-icon icon ion-ios-partlysunny"> Step 2</a>
+          </div>
+        </div>
+
+        <div class="row step-3-bg">
+          <div class="SUB-white-borderd-box">
+            <a class="button button-large activated button-icon icon ion-ios-speedometer"> Step 3</a>
+          </div>
+        </div>
+
+        <div class="row step-4-bg">
+          <div class="SUB-white-borderd-box">
+            <a class="button button-small button-icon icon ion-erlenmeyer-flask"> Step 4</a>
+          </div>
+        </div>
+
+        <div class="row step-5-bg">
+          <div class="SUB-white-borderd-box">
+            <a class="button button-small button-icon icon ion-android-compass"> Step 5</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col dials-stage-bg">
+        <div class="row">
+          <div class="col-50">
+            <circular-slider class='my-slider' shape='{{shape}}' touch="true" animate='true' on-slide='onSlide' on-slide-end='onSlideEnd' min="min" max="max" value="value">
+          		{{value}}
+          	</circular-slider>
+          </div>
+
+          <div class="col">
+            <circular-slider class='my-slider' shape='{{shape}}' touch="true" animate='true' on-slide='onSlide' on-slide-end='onSlideEnd' min="min" max="max" value="value">
+          		{{value}}
+          	</circular-slider>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-50">
+            <circular-slider class='my-slider' shape='{{shape}}' touch="true" animate='true' on-slide='onSlide' on-slide-end='onSlideEnd' min="min" max="max" value="value">
+          		{{value}}
+          	</circular-slider>
+          </div>
+
+          <div class="col">
+            <circular-slider class='my-slider' shape='{{shape}}' touch="true" animate='true' on-slide='onSlide' on-slide-end='onSlideEnd' min="min" max="max" value="value">
+          		{{value}}
+          	</circular-slider>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

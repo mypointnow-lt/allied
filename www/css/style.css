@@ -1,0 +1,173 @@
+/* LT :: Allied APP Styles */
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.bar-stable .button.button-clear {
+  color: #fff !important;
+}
+
+.bar.bar-stable .title {
+  color: #fff !important;
+}
+
+h1 {
+  color: #0033a0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+h2,h3,h4,h5,h6 {
+  color: #0033a0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.item h2 {
+    margin: 0 0 2px 0;
+    font-size: 22px;
+    font-weight: normal;
+    padding: 10px 0 0 0;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.bar.bar-header.bar-stable {
+  background-color: #0033a0;
+  color: #fff !important;
+}
+
+.bar.bar-stable {
+  background: #fff;
+  border-bottom: 2px solid #0033a0;
+}
+
+.bar.bar-footer {
+  background: #fff;
+  border-top: 2px solid #0033a0;
+}
+
+.list {
+  width: 100%;
+}
+
+.list.list-inset.small-list {
+  margin: 2px;
+}
+
+.list.list-inset.small-list .item {
+  font-size: 10px;
+  padding: 2px;
+}
+
+.col-25.vertical-progress {
+  text-align: center;
+  padding: 0px;
+}
+
+.card.map .item {
+  padding: 6px;
+}
+
+.item-divider.heading {
+  background: #0033a0;
+  color: #fff;
+  padding: 0px 5px;
+}
+
+.item-divider.map {
+  background: url(../img/customer-map.png) center;
+  padding: 0px 5px;
+  height: 120px;
+  background-size: cover;
+}
+
+.new-project-bg {
+  background: url(../img/bg-placehold-img-1.jpg) no-repeat top center;
+  background-size: cover;
+  height: 650px;
+  padding: 20px;
+  position: relative;
+}
+
+.previous-project-bg {
+  background: url(../img/bg-placehold-img-2.jpg) no-repeat top center;
+  background-size: cover;
+  height: 650px;
+  padding: 20px;
+  position: relative;
+}
+
+.white-borderd-box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20%;
+  width: 80%;
+  min-height: 200px;
+  border: #fff solid 4px;
+  text-align: center;
+  background: transparent;
+  padding: 80px 40px;
+}
+
+.white-borderd-box a {
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #0033a0;
+}
+
+.SUB-white-borderd-box {
+  margin: 15px 10px;
+  border: #fff solid 4px;
+  text-align: center;
+  background: transparent;
+  padding: 15px;
+  width: 100%
+}
+
+.SUB-white-borderd-box a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #0033a0;
+}
+
+.step-1-bg {
+  background: url(../img/bg-placehold-img-1.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.step-2-bg {
+  background: url(../img/bg-placehold-img-2.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.step-3-bg {
+  background: url(../img/bg-dials-page.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.dials-stage-bg {
+  background: url(../img/bg-dials-page.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.step-4-bg {
+  background: url(../img/bg-placehold-img-1.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.step-5-bg {
+  background: url(../img/bg-placehold-img-2.jpg) no-repeat top center;
+  background-size: cover;
+}
