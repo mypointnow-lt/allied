@@ -4,61 +4,98 @@
       <div class="col col-25 vertical-progress">
         <div class="row step-1-bg">
           <div class="SUB-white-borderd-box">
-            <a class="button button-small button-icon icon ion-ios-gear"> Step 1</a>
+            <a class="button button-small activated button-icon icon ion-ios-gear"> Step 1</a>
           </div>
         </div>
 
         <div class="row step-2-bg">
           <div class="SUB-white-borderd-box">
-            <a class="button button-small button-icon icon ion-ios-partlysunny"> Step 2</a>
+            <a class="button button-small activated button-icon icon ion-ios-partlysunny"> Step 2</a>
           </div>
         </div>
 
         <div class="row step-3-bg">
           <div class="SUB-white-borderd-box">
-            <a class="button button-large activated button-icon icon ion-ios-speedometer"> Step 3</a>
+            <a class="button button-large button-icon icon ion-ios-speedometer"> Step 3</a>
           </div>
         </div>
 
         <div class="row step-4-bg">
           <div class="SUB-white-borderd-box">
-            <a class="button button-small button-icon icon ion-erlenmeyer-flask"> Step 4</a>
+            <a class="button button-small activated button-icon icon ion-erlenmeyer-flask"> Step 4</a>
           </div>
         </div>
 
         <div class="row step-5-bg">
           <div class="SUB-white-borderd-box">
-            <a class="button button-small button-icon icon ion-android-compass"> Step 5</a>
+            <a class="button button-small activated button-icon icon ion-android-compass"> Step 5</a>
+          </div>
+        </div>
+
+        <div class="row step-6-bg">
+          <div class="SUB-white-borderd-box">
+            <a class="button button-small activated button-icon icon ion-erlenmeyer-flask"> Step 6</a>
+          </div>
+        </div>
+
+        <div class="row step-7-bg">
+          <div class="SUB-white-borderd-box">
+            <a class="button button-small activated button-icon icon ion-android-compass"> Step 7</a>
           </div>
         </div>
       </div>
 
-      <div class="col dials-stage-bg">
+      <div class="col dials-stage-bg main-content-well">
         <div class="row">
-          <div class="col-50">
-            <circular-slider class='my-slider' shape='{{shape}}' touch="true" animate='true' on-slide='onSlide' on-slide-end='onSlideEnd' min="min" max="max" value="value">
-          		{{value}}
-          	</circular-slider>
+          <div class="col">
+            <h2><i class="icon ion-ios-speedometer"></i> Select Your Comfort<br/><small>Use the dials below to custom taylor your comfort system.</small></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-50">
+            <div class="card dial-spacing">
+              <circular-slider class='my-slider-1' shape='{{shape}}' touch="true" animate='true' on-slide='onSlide' on-slide-end='onSlideEnd' min="min" max="max" value="value">
+            		{{value}}
+            	</circular-slider>
+              <h3 class="text-center dial-title-spacing">Efficiency</h3>
+            </div>
           </div>
 
-          <div class="col">
-            <circular-slider class='my-slider' shape='{{shape}}' touch="true" animate='true' on-slide='onSlide' on-slide-end='onSlideEnd' min="min" max="max" value="value">
+          <div class="col col-50">
+            <div class="card dial-spacing">
+              <circular-slider class='my-slider-2' shape='{{shape}}' touch="true" animate='true' on-slide='onSlide' on-slide-end='onSlideEnd' min="min" max="max" value="value">
           		{{value}}
-          	</circular-slider>
+          	 </circular-slider>
+             <h3 class="text-center dial-title-spacing">Comfort</h3>
+           </div>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-50">
-            <circular-slider class='my-slider' shape='{{shape}}' touch="true" animate='true' on-slide='onSlide' on-slide-end='onSlideEnd' min="min" max="max" value="value">
+          <div class="col col-50">
+            <div class="card dial-spacing">
+              <circular-slider class='my-slider-3' shape='{{shape}}' touch="true" animate='true' on-slide='onSlide' on-slide-end='onSlideEnd' min="min" max="max" value="value">
           		{{value}}
-          	</circular-slider>
+          	 </circular-slider>
+             <h3 class="text-center dial-title-spacing">Control</h3>
+           </div>
           </div>
 
-          <div class="col">
-            <circular-slider class='my-slider' shape='{{shape}}' touch="true" animate='true' on-slide='onSlide' on-slide-end='onSlideEnd' min="min" max="max" value="value">
+          <div class="col col-50">
+            <div class="card dial-spacing">
+              <circular-slider class='my-slider-4' shape='{{shape}}' touch="true" animate='true' on-slide='onSlide' on-slide-end='onSlideEnd' min="min" max="max" value="value">
           		{{value}}
-          	</circular-slider>
+          	 </circular-slider>
+             <h3 class="text-center dial-title-spacing">Cost</h3>
+           </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="card standard-padding">
+              <p>This is content</p>
+            </div>
           </div>
         </div>
       </div>
